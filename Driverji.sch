@@ -1,0 +1,314 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Discretes:CSD19531KCS Q?
+U 1 1 5BC7094D
+P 6800 2050
+F 0 "Q?" H 7006 2096 50  0000 L CNN
+F 1 "CSD19531KCS" H 7006 2005 50  0000 L CNN
+F 2 "Discretes:TO-220" H 7000 1950 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/csd19531kcs.pdf" H 6800 2050 50  0001 C CNN
+	1    6800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Discretes:CSD19531KCS Q?
+U 1 1 5BC70A9B
+P 8400 2050
+F 0 "Q?" H 8606 2096 50  0000 L CNN
+F 1 "CSD19531KCS" H 8606 2005 50  0000 L CNN
+F 2 "Discretes:TO-220" H 8600 1950 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/csd19531kcs.pdf" H 8400 2050 50  0001 C CNN
+	1    8400 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Discretes:CSD19531KCS Q?
+U 1 1 5BC70B92
+P 10000 2050
+F 0 "Q?" H 10206 2096 50  0000 L CNN
+F 1 "CSD19531KCS" H 10206 2005 50  0000 L CNN
+F 2 "Discretes:TO-220" H 10200 1950 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/csd19531kcs.pdf" H 10000 2050 50  0001 C CNN
+	1    10000 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 1850 6900 1500
+Wire Wire Line
+	6900 1500 8500 1500
+Wire Wire Line
+	10100 1500 10100 1850
+Wire Wire Line
+	8500 1850 8500 1500
+Connection ~ 8500 1500
+Wire Wire Line
+	8500 1500 10100 1500
+$Comp
+L power:+VDC #PWR?
+U 1 1 5BC70BE6
+P 8500 1100
+F 0 "#PWR?" H 8500 1000 50  0001 C CNN
+F 1 "+VDC" H 8500 1375 50  0000 C CNN
+F 2 "" H 8500 1100 50  0001 C CNN
+F 3 "" H 8500 1100 50  0001 C CNN
+	1    8500 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 1500 8500 1100
+$Comp
+L Passives:R1206 R?
+U 1 1 5BC70C4B
+P 7950 2050
+F 0 "R?" H 7950 2267 50  0000 C CNN
+F 1 "R1206" H 7950 2176 50  0000 C CNN
+F 2 "Passives:R1206M" H 7850 1950 50  0001 L CNN
+F 3 "" H 7950 2050 50  0001 C CNN
+	1    7950 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passives:R1206 R?
+U 1 1 5BC70CC2
+P 9550 2050
+F 0 "R?" H 9550 2267 50  0000 C CNN
+F 1 "R1206" H 9550 2176 50  0000 C CNN
+F 2 "Passives:R1206M" H 9450 1950 50  0001 L CNN
+F 3 "" H 9550 2050 50  0001 C CNN
+	1    9550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passives:R1206 R?
+U 1 1 5BC70CEF
+P 6350 2050
+F 0 "R?" H 6350 2267 50  0000 C CNN
+F 1 "R1206" H 6350 2176 50  0000 C CNN
+F 2 "Passives:R1206M" H 6250 1950 50  0001 L CNN
+F 3 "" H 6350 2050 50  0001 C CNN
+	1    6350 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2050 8200 2050
+Wire Wire Line
+	9750 2050 9800 2050
+Wire Wire Line
+	6550 2050 6600 2050
+Wire Wire Line
+	6900 2450 8500 2450
+Connection ~ 8500 2450
+Wire Wire Line
+	8500 2450 10100 2450
+$Comp
+L Discretes:CSD19531KCS Q?
+U 1 1 5BC7104F
+P 6800 3050
+F 0 "Q?" H 7006 3096 50  0000 L CNN
+F 1 "CSD19531KCS" H 7006 3005 50  0000 L CNN
+F 2 "Discretes:TO-220" H 7000 2950 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/csd19531kcs.pdf" H 6800 3050 50  0001 C CNN
+	1    6800 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Discretes:CSD19531KCS Q?
+U 1 1 5BC71157
+P 8400 3050
+F 0 "Q?" H 8606 3096 50  0000 L CNN
+F 1 "CSD19531KCS" H 8606 3005 50  0000 L CNN
+F 2 "Discretes:TO-220" H 8600 2950 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/csd19531kcs.pdf" H 8400 3050 50  0001 C CNN
+	1    8400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Discretes:CSD19531KCS Q?
+U 1 1 5BC71274
+P 10000 3050
+F 0 "Q?" H 10206 3096 50  0000 L CNN
+F 1 "CSD19531KCS" H 10206 3005 50  0000 L CNN
+F 2 "Discretes:TO-220" H 10200 2950 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/csd19531kcs.pdf" H 10000 3050 50  0001 C CNN
+	1    10000 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2850 8500 2450
+Connection ~ 10100 2450
+Wire Wire Line
+	6900 2850 6900 2450
+Text Label 10650 2450 0    50   ~ 0
+Faza_Izhod
+Wire Wire Line
+	10100 2450 10650 2450
+Wire Wire Line
+	10100 2450 10100 2850
+Wire Wire Line
+	10100 3400 8500 3400
+Connection ~ 8500 3400
+Wire Wire Line
+	8500 3400 6900 3400
+$Comp
+L Passives:GND #PWR?
+U 1 1 5BC72415
+P 8500 3600
+F 0 "#PWR?" H 8500 3450 50  0001 C CNN
+F 1 "GND" H 8650 3550 50  0001 C CNN
+F 2 "" H 8500 3600 50  0001 C CNN
+F 3 "" H 8500 3600 50  0001 C CNN
+	1    8500 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 3400 8500 3600
+Wire Wire Line
+	6900 3250 6900 3400
+Wire Wire Line
+	8500 3400 8500 3250
+Wire Wire Line
+	10100 3400 10100 3250
+Wire Wire Line
+	7750 2050 7750 1750
+Wire Wire Line
+	7750 1750 6050 1750
+Wire Wire Line
+	6050 1750 6050 2050
+Wire Wire Line
+	6050 2050 6150 2050
+Wire Wire Line
+	9350 2050 9350 1750
+Wire Wire Line
+	9350 1750 7750 1750
+Connection ~ 7750 1750
+Wire Wire Line
+	6900 2250 6900 2450
+Connection ~ 6900 2450
+Wire Wire Line
+	8500 2450 8500 2250
+Wire Wire Line
+	10100 2250 10100 2450
+Wire Wire Line
+	5950 2050 6050 2050
+Connection ~ 6050 2050
+Wire Wire Line
+	5950 2450 6900 2450
+$Comp
+L Passives:R1206 R?
+U 1 1 5BC76203
+P 6350 3050
+F 0 "R?" H 6350 3267 50  0000 C CNN
+F 1 "R1206" H 6350 3176 50  0000 C CNN
+F 2 "Passives:R1206M" H 6250 2950 50  0001 L CNN
+F 3 "" H 6350 3050 50  0001 C CNN
+	1    6350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passives:R1206 R?
+U 1 1 5BC76664
+P 7950 3050
+F 0 "R?" H 7950 3267 50  0000 C CNN
+F 1 "R1206" H 7950 3176 50  0000 C CNN
+F 2 "Passives:R1206M" H 7850 2950 50  0001 L CNN
+F 3 "" H 7950 3050 50  0001 C CNN
+	1    7950 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passives:R1206 R?
+U 1 1 5BC76AAA
+P 9550 3050
+F 0 "R?" H 9550 3267 50  0000 C CNN
+F 1 "R1206" H 9550 3176 50  0000 C CNN
+F 2 "Passives:R1206M" H 9450 2950 50  0001 L CNN
+F 3 "" H 9550 3050 50  0001 C CNN
+	1    9550 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 3050 9750 3050
+Wire Wire Line
+	8200 3050 8150 3050
+Wire Wire Line
+	6550 3050 6600 3050
+Wire Wire Line
+	6050 3050 6050 2750
+Wire Wire Line
+	6050 2750 7650 2750
+Wire Wire Line
+	7650 2750 7650 3050
+Wire Wire Line
+	7650 3050 7750 3050
+Wire Wire Line
+	6050 3050 6150 3050
+Wire Wire Line
+	7650 2750 9250 2750
+Wire Wire Line
+	9250 2750 9250 3050
+Wire Wire Line
+	9250 3050 9350 3050
+Connection ~ 7650 2750
+Wire Wire Line
+	5950 3050 6050 3050
+Connection ~ 6050 3050
+$Comp
+L ICs:IR2181 U?
+U 1 1 5BC7B4E0
+P 1600 2400
+F 0 "U?" H 1600 2767 50  0000 C CNN
+F 1 "IR2181" H 1600 2676 50  0000 C CNN
+F 2 "Package_SO:SO8" H 1400 2650 50  0001 L CNN
+F 3 "http://www.irf.com/product-info/datasheets/data/ir2104.pdf" H 1400 2900 50  0001 L CNN
+	1    1600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passives:C1206 C?
+U 1 1 5BC7CAD4
+P 2400 2400
+F 0 "C?" H 2515 2446 50  0000 L CNN
+F 1 "C1206" H 2515 2355 50  0000 L CNN
+F 2 "Passives:C1206M" H 2450 2300 50  0001 L CNN
+F 3 "" H 2400 2400 50  0001 C CNN
+	1    2400 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2300 2400 2300
+Wire Wire Line
+	2400 2500 1900 2500
+Text Label 2100 2400 0    50   ~ 0
+Drv_H
+Text Label 2100 2600 0    50   ~ 0
+Drv_L
+Wire Wire Line
+	1900 2400 2100 2400
+Wire Wire Line
+	1900 2600 2100 2600
+Wire Wire Line
+	2950 2500 2400 2500
+Connection ~ 2400 2500
+Text Label 2950 2500 0    50   ~ 0
+V_S
+Text Label 5950 2450 2    50   ~ 0
+V_S
+Text Label 5950 2050 2    50   ~ 0
+Drv_H
+Text Label 5950 3050 2    50   ~ 0
+Drv_L
+$EndSCHEMATC
