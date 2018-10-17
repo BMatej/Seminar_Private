@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -44,4 +44,10 @@ Text HLabel 7600 4100 0    50   Input ~ 0
 Tok_L2
 Text HLabel 7600 4300 0    50   Input ~ 0
 Tok_L3
+$Sheet
+S 8900 1250 1600 800 
+U 5BC702AD
+F0 "Faza1" 50
+F1 "Driverji.sch" 50
+$EndSheet
 $EndSCHEMATC
