@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -154,7 +154,7 @@ Connection ~ 10100 2450
 Wire Wire Line
 	6900 2850 6900 2450
 Text Label 10650 2450 0    50   ~ 0
-V_Izhod
+Izhod1
 Wire Wire Line
 	10100 2450 10650 2450
 Wire Wire Line
@@ -437,4 +437,24 @@ Text HLabel 1450 4050 2    50   Input ~ 0
 V_s
 Text HLabel 1450 4500 2    50   Input ~ 0
 GND
+$Sheet
+S 1450 5350 2100 1350
+U 5BCA57DE
+F0 "A-meter1" 50
+F1 "A_meter.sch" 50
+$EndSheet
+Text HLabel 3550 4300 0    50   Output ~ 0
+V_izm
+Text Label 10200 2450 0    50   ~ 0
+V_merjena
+Text HLabel 1450 5700 2    50   Input ~ 0
+Izhod
+Text HLabel 1450 6400 2    50   Input ~ 0
+GND
+Text HLabel 1450 6050 2    50   Input ~ 0
++5V
+Text HLabel 3550 5800 0    50   Input ~ 0
+Izhod_breme
+Text HLabel 3550 6200 0    50   Input ~ 0
+I_izm
 $EndSCHEMATC
