@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -101,17 +101,6 @@ V_ref
 Wire Wire Line
 	3500 2800 4250 2800
 $Comp
-L Amplifier_Operational:MCP6001R U?
-U 1 1 5BCCC475
-P 5050 2450
-F 0 "U?" H 5391 2496 50  0000 L CNN
-F 1 "MCP6001R" H 5391 2405 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5050 2450 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5050 2650 50  0001 C CNN
-	1    5050 2450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Passives:GND #PWR?
 U 1 1 5BCCC5E3
 P 4950 3000
@@ -174,4 +163,15 @@ Wire Wire Line
 Connection ~ 5450 2450
 Wire Wire Line
 	5450 2450 5800 2450
+$Comp
+L Amplifier_Operational:MCP601R U?
+U 1 1 5BCDCCEB
+P 5050 2450
+F 0 "U?" H 5391 2496 50  0000 L CNN
+F 1 "MCP601R" H 5391 2405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5050 2450 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf" H 5050 2650 50  0001 C CNN
+	1    5050 2450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

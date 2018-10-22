@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -50,4 +50,14 @@ U 5BC702AD
 F0 "Faza1" 50
 F1 "Driverji.sch" 50
 $EndSheet
+Text HLabel 10500 1450 0    50   Output ~ 0
+Izhod_breme1
+Text HLabel 10500 1600 0    50   Output ~ 0
+V_izm1
+Text HLabel 10500 1750 0    50   Output ~ 0
+I_izm1
+Text HLabel 8900 1500 2    50   Input ~ 0
+PWM_L1_H
+Text HLabel 8900 1800 2    50   Input ~ 0
+PWM_L1_L
 $EndSCHEMATC
