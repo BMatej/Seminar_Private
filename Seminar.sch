@@ -18,7 +18,7 @@ $Sheet
 S 4400 1550 3200 4250
 U 5BC6DE7A
 F0 "ControlCard" 50
-F1 "Delfino.sch" 50
+F1 "LAUNCHXL.sch" 50
 $EndSheet
 Text HLabel 7600 2000 0    50   Output ~ 0
 PWM_L1_H

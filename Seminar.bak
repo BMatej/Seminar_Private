@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -120,10 +120,24 @@ Wire Wire Line
 	4400 2250 3100 2250
 Text HLabel 7600 4650 0    50   Input ~ 0
 OC_trip
-$Sheet
-S 1350 4150 1700 800 
-U 5BD14EE4
-F0 "Napajalnik" 50
-F1 "Napajalnik.sch" 50
-$EndSheet
+Wire Wire Line
+	7600 4650 10600 4650
+Wire Wire Line
+	10600 4650 10600 1850
+Wire Wire Line
+	10500 1850 10600 1850
+Wire Wire Line
+	10500 1850 10500 1700
+Wire Wire Line
+	10500 1700 10700 1700
+Wire Wire Line
+	7600 3900 10700 3900
+Wire Wire Line
+	10700 1700 10700 3900
+Wire Wire Line
+	7600 3300 10800 3300
+Wire Wire Line
+	10800 1550 10800 3300
+Wire Wire Line
+	10500 1550 10800 1550
 $EndSCHEMATC
