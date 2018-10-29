@@ -1,0 +1,200 @@
+EESchema Schematic File Version 4
+LIBS:Seminar-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Passives:R1206 R?
+U 1 1 5BCCBE50
+P 2800 1750
+AR Path="/5BC702AD/5BCCBCD0/5BCCBE50" Ref="R?"  Part="1" 
+AR Path="/5BD3A78C/5BCCBE50" Ref="R?"  Part="1" 
+F 0 "R?" V 2754 1830 50  0000 L CNN
+F 1 "R1206" V 2845 1830 50  0000 L CNN
+F 2 "Passives:R1206M" H 2700 1650 50  0001 L CNN
+F 3 "" H 2800 1750 50  0001 C CNN
+	1    2800 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Passives:R1206 R?
+U 1 1 5BCCBFA4
+P 2800 2500
+AR Path="/5BC702AD/5BCCBCD0/5BCCBFA4" Ref="R?"  Part="1" 
+AR Path="/5BD3A78C/5BCCBFA4" Ref="R?"  Part="1" 
+F 0 "R?" V 2754 2580 50  0000 L CNN
+F 1 "R1206" V 2845 2580 50  0000 L CNN
+F 2 "Passives:R1206M" H 2700 2400 50  0001 L CNN
+F 3 "" H 2800 2500 50  0001 C CNN
+	1    2800 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 1950 2800 2150
+$Comp
+L Passives:C1206 C?
+U 1 1 5BCCBFDD
+P 3500 1750
+AR Path="/5BC702AD/5BCCBCD0/5BCCBFDD" Ref="C?"  Part="1" 
+AR Path="/5BD3A78C/5BCCBFDD" Ref="C?"  Part="1" 
+F 0 "C?" H 3615 1796 50  0000 L CNN
+F 1 "C1206" H 3615 1705 50  0000 L CNN
+F 2 "Passives:C1206M" H 3550 1650 50  0001 L CNN
+F 3 "" H 3500 1750 50  0001 C CNN
+	1    3500 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passives:C1206 C?
+U 1 1 5BCCC057
+P 3500 2500
+AR Path="/5BC702AD/5BCCBCD0/5BCCC057" Ref="C?"  Part="1" 
+AR Path="/5BD3A78C/5BCCC057" Ref="C?"  Part="1" 
+F 0 "C?" H 3615 2546 50  0000 L CNN
+F 1 "C1206" H 3615 2455 50  0000 L CNN
+F 2 "Passives:C1206M" H 3550 2400 50  0001 L CNN
+F 3 "" H 3500 2500 50  0001 C CNN
+	1    3500 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1650 3500 1400
+Wire Wire Line
+	3500 1400 2800 1400
+Wire Wire Line
+	2800 1400 2800 1550
+Wire Wire Line
+	2800 2700 2800 2800
+Wire Wire Line
+	2800 2800 3500 2800
+Wire Wire Line
+	3500 2800 3500 2600
+Wire Wire Line
+	1800 1400 2800 1400
+Connection ~ 2800 1400
+Wire Wire Line
+	2800 2800 1800 2800
+Connection ~ 2800 2800
+Wire Wire Line
+	2800 2150 3500 2150
+Connection ~ 2800 2150
+Wire Wire Line
+	2800 2150 2800 2300
+Connection ~ 3500 2150
+Wire Wire Line
+	3500 2150 3500 2400
+$Comp
+L Passives:GND #PWR?
+U 1 1 5BCCC5E3
+P 4750 2600
+AR Path="/5BC702AD/5BCCBCD0/5BCCC5E3" Ref="#PWR?"  Part="1" 
+AR Path="/5BD3A78C/5BCCC5E3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4750 2450 50  0001 C CNN
+F 1 "GND" H 4900 2550 50  0001 C CNN
+F 2 "" H 4750 2600 50  0001 C CNN
+F 3 "" H 4750 2600 50  0001 C CNN
+	1    4750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passives:R1206 R?
+U 1 1 5BCCC942
+P 5800 2250
+AR Path="/5BC702AD/5BCCBCD0/5BCCC942" Ref="R?"  Part="1" 
+AR Path="/5BD3A78C/5BCCC942" Ref="R?"  Part="1" 
+F 0 "R?" H 5800 2467 50  0000 C CNN
+F 1 "R1206" H 5800 2376 50  0000 C CNN
+F 2 "Passives:R1206M" H 5700 2150 50  0001 L CNN
+F 3 "" H 5800 2250 50  0001 C CNN
+	1    5800 2250
+	1    0    0    -1  
+$EndComp
+Text HLabel 6150 2250 2    50   Output ~ 0
+V_DC_izm
+Wire Wire Line
+	6000 2250 6150 2250
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5BCCD420
+P 4750 1700
+AR Path="/5BC702AD/5BCCBCD0/5BCCD420" Ref="#PWR?"  Part="1" 
+AR Path="/5BD3A78C/5BCCD420" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4750 1550 50  0001 C CNN
+F 1 "+3V3" H 4765 1873 50  0000 C CNN
+F 2 "" H 4750 1700 50  0001 C CNN
+F 3 "" H 4750 1700 50  0001 C CNN
+	1    4750 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 1700 4750 1950
+Wire Wire Line
+	4400 2350 4550 2350
+$Comp
+L Amplifier_Operational:MCP601R U?
+U 1 1 5BCDCCEB
+P 4850 2250
+AR Path="/5BC702AD/5BCCBCD0/5BCDCCEB" Ref="U?"  Part="1" 
+AR Path="/5BD3A78C/5BCDCCEB" Ref="U?"  Part="1" 
+F 0 "U?" H 5191 2296 50  0000 L CNN
+F 1 "MCP601R" H 5191 2205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4850 2250 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf" H 4850 2450 50  0001 C CNN
+	1    4850 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2600 4750 2550
+Wire Wire Line
+	5150 2250 5350 2250
+Wire Wire Line
+	5350 2250 5350 2900
+Wire Wire Line
+	5350 2900 4400 2900
+Wire Wire Line
+	4400 2900 4400 2350
+Connection ~ 5350 2250
+Wire Wire Line
+	5350 2250 5600 2250
+Wire Wire Line
+	4550 2150 3500 2150
+Wire Wire Line
+	3500 2100 3500 2150
+Wire Wire Line
+	3500 1850 3500 2150
+$Comp
+L Passives:GND #PWR?
+U 1 1 5BD4A769
+P 1800 2900
+F 0 "#PWR?" H 1800 2750 50  0001 C CNN
+F 1 "GND" H 1950 2850 50  0001 C CNN
+F 2 "" H 1800 2900 50  0001 C CNN
+F 3 "" H 1800 2900 50  0001 C CNN
+	1    1800 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2900 1800 2800
+$Comp
+L power:+VDC #PWR?
+U 1 1 5BD8204F
+P 1800 1400
+F 0 "#PWR?" H 1800 1300 50  0001 C CNN
+F 1 "+VDC" H 1800 1675 50  0000 C CNN
+F 2 "" H 1800 1400 50  0001 C CNN
+F 3 "" H 1800 1400 50  0001 C CNN
+	1    1800 1400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

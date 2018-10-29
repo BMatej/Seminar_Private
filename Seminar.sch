@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -140,4 +140,22 @@ Wire Wire Line
 	10800 1550 10800 3300
 Wire Wire Line
 	10500 1550 10800 1550
+$Sheet
+S 1900 4200 1150 850 
+U 5BD3A78C
+F0 "DC_Napetost" 50
+F1 "Merjenje_DC_Napetosti.sch" 50
+$EndSheet
+Text HLabel 3050 4600 0    50   Output ~ 0
+V_DC_izm
+Text HLabel 4400 4600 2    50   Input ~ 0
+V_DC_izm
+Wire Wire Line
+	3050 4600 4400 4600
+$Sheet
+S 1350 5500 1700 850 
+U 5BD7DC9C
+F0 "Napajanje" 50
+F1 "Napajanje.sch" 50
+$EndSheet
 $EndSCHEMATC
