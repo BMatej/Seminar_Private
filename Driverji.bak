@@ -111,10 +111,10 @@ Wire Wire Line
 Wire Wire Line
 	5700 2100 5750 2100
 Wire Wire Line
-	6050 2500 7650 2500
+	6050 2500 7350 2500
 Connection ~ 7650 2500
 Wire Wire Line
-	7650 2500 9250 2500
+	7650 2500 8950 2500
 $Comp
 L Discretes:CSD19531KCS Q?
 U 1 1 5BC7104F
@@ -160,10 +160,9 @@ Wire Wire Line
 Wire Wire Line
 	9250 2500 9250 2900
 Wire Wire Line
-	9250 3450 7650 3450
-Connection ~ 7650 3450
+	9250 3500 9000 3500
 Wire Wire Line
-	7650 3450 6050 3450
+	7650 3500 7350 3500
 $Comp
 L Passives:GND #PWR?
 U 1 1 5BC72415
@@ -175,14 +174,6 @@ F 3 "" H 7650 3650 50  0001 C CNN
 	1    7650 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7650 3450 7650 3650
-Wire Wire Line
-	6050 3300 6050 3450
-Wire Wire Line
-	7650 3450 7650 3300
-Wire Wire Line
-	9250 3450 9250 3300
 Wire Wire Line
 	6900 2100 6900 1800
 Wire Wire Line
@@ -459,4 +450,96 @@ Text HLabel 1450 4250 2    50   Input ~ 0
 +3V3
 Text HLabel 3550 6400 0    50   Input ~ 0
 OC_trip
+$Comp
+L Passives:R1206 R?
+U 1 1 5BDF1C44
+P 7350 2300
+F 0 "R?" H 7350 2517 50  0000 C CNN
+F 1 "R1206" H 7350 2426 50  0000 C CNN
+F 2 "Passives:R1206M" H 7250 2200 50  0001 L CNN
+F 3 "" H 7350 2300 50  0001 C CNN
+	1    7350 2300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7350 2100
+Connection ~ 7350 2500
+Wire Wire Line
+	7350 2500 7650 2500
+$Comp
+L Passives:R1206 R?
+U 1 1 5BDF6FCE
+P 5750 2300
+F 0 "R?" H 5750 2517 50  0000 C CNN
+F 1 "R1206" H 5750 2426 50  0000 C CNN
+F 2 "Passives:R1206M" H 5650 2200 50  0001 L CNN
+F 3 "" H 5750 2300 50  0001 C CNN
+	1    5750 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Passives:R1206 R?
+U 1 1 5BDF8B9C
+P 8950 2300
+F 0 "R?" H 8950 2517 50  0000 C CNN
+F 1 "R1206" H 8950 2426 50  0000 C CNN
+F 2 "Passives:R1206M" H 8850 2200 50  0001 L CNN
+F 3 "" H 8950 2300 50  0001 C CNN
+	1    8950 2300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8950 2100
+Connection ~ 8950 2500
+Wire Wire Line
+	8950 2500 9250 2500
+$Comp
+L Passives:R1206 R?
+U 1 1 5BDFC3C7
+P 9000 3300
+F 0 "R?" H 9000 3517 50  0000 C CNN
+F 1 "R1206" H 9000 3426 50  0000 C CNN
+F 2 "Passives:R1206M" H 8900 3200 50  0001 L CNN
+F 3 "" H 9000 3300 50  0001 C CNN
+	1    9000 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Passives:R1206 R?
+U 1 1 5BDFE01D
+P 7350 3300
+F 0 "R?" H 7350 3517 50  0000 C CNN
+F 1 "R1206" H 7350 3426 50  0000 C CNN
+F 2 "Passives:R1206M" H 7250 3200 50  0001 L CNN
+F 3 "" H 7350 3300 50  0001 C CNN
+	1    7350 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Passives:R1206 R?
+U 1 1 5BDFFC58
+P 5750 3300
+F 0 "R?" H 5750 3517 50  0000 C CNN
+F 1 "R1206" H 5750 3426 50  0000 C CNN
+F 2 "Passives:R1206M" H 5650 3200 50  0001 L CNN
+F 3 "" H 5750 3300 50  0001 C CNN
+	1    5750 3300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7650 3500
+Wire Wire Line
+	7650 3500 7650 3650
+Connection ~ 9000 3500
+Wire Wire Line
+	9000 3500 7650 3500
+Wire Wire Line
+	9250 3300 9250 3500
+Connection ~ 7350 3500
+Wire Wire Line
+	7350 3500 6050 3500
+Wire Wire Line
+	7650 3300 7650 3500
+Wire Wire Line
+	6050 3300 6050 3500
+Wire Wire Line
+	6050 3500 5750 3500
+Connection ~ 6050 3500
 $EndSCHEMATC
